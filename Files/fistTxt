@@ -1,0 +1,8 @@
+hello
+hai
+hi
+
+two types files operations
+reading==> file content read =====> 'r'
+writing ===> file content writing using ====>'w' ==>for writing and ==> 'a' ===> for appending
+
