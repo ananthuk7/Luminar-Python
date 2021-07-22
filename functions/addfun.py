@@ -16,6 +16,14 @@ def mul():
     print(x * y)
 
 
+def div(a,b):
+
+    print(a / b)
+
+
 add()
-sub()
-mul()
+# sub()
+# mul()
+x = int(input("enter the number"))
+y = int(input("enter the number"))
+div(x, y)

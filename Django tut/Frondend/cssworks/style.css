@@ -1,0 +1,26 @@
+/* tag/id/class{
+    properties....
+}
+*/
+body{
+    background-color: #f0f2f5;;
+}
+h1
+{
+    color: #1877f2;
+    text-align: center;
+}
+#hone{
+    color: hsl(290, 50%, 45%);
+    
+}
+.but{
+    background-color: purple;
+    color: white;
+    height: 30px;
+    width: 90px;
+}
+button{
+    height: 30px;
+    width: 90px;
+}

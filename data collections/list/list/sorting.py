@@ -42,3 +42,18 @@ print(newList)
 #     y.append(mim)
 #     x.remove(mim)
 # print(y)
+
+
+# # [1,2,3,4,5,6,7]  1 3
+# l=0 h=6  m=3   # l=0 u=2 [1 2 3]   [1]
+# if a[mid]<k: 4< 1 2<1: 1<1
+#
+# if a[mid]>k: 4>1 2>1 1>1
+# up=mid-1
+# m=k
+# found
+
+
+
+
+

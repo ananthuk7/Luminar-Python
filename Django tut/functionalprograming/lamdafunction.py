@@ -31,28 +31,21 @@
 # print(squares)
 
 
-
-
-
-
-
-#print all product details availave <250
+# print all product details availave <250
 
 # pd = list(filter(lambda product:product["mrp"]<250,products))
 # print(pd)
 
 
-
-
-#num1=10
-#num2=20
+# num1=10
+# num2=20
 # res=num1 if num1>num2 else num2
 
-#num=1
-#res="odd" if num%2!=0 else "even"
+# num=1
+# res="odd" if num%2!=0 else "even"
 
-#num2
-#res="+ve" if num >0 else "-ve"
+# num2
+# res="+ve" if num >0 else "-ve"
 
 
 # #lst =[2,3,4,8,10,7] if num<5 num-1 else num+1
@@ -72,17 +65,34 @@
 # print(op)
 
 
-
-#reduce
-#dont have enough reach
+# reduce
+# dont have enough reach
 
 # from functools import  reduce
 # lst=[1,2,3,4,5,6,7]
 # total=reduce(lambda num1,num2:num1+num2,lst)
 # print(total)
 
-#largest
+# largest
 # largest=reduce(lambda num1,num2:num1 if num1>num2 else num2,lst)
 # print(largest)
 
+
+def some(**kwargs):
+    name=kwargs["name"]
+    age=kwargs["ag"]
+    print(name,age)
+
+
+# def abc(*args):
+#     print(args)
+#     print(sum(args))
+
+# def um(*args):
+#     print(sum(args))
+
+
+some(name="abc",ag=1
+     )
+# abc(1, 2, 3, 4, 5, 6)
 

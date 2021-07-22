@@ -1,0 +1,211 @@
+body{
+    background-color: #000;
+
+}
+h1{
+    text-align: center;
+    color: #fff;
+}
+
+.row{
+    width: 50%;
+    height: 300px;
+    position: absolute;
+    left: 25%;
+    
+   
+}
+.col{
+    width: 19%;
+    height: 250px;
+    float: left;
+    margin: 25px 3px;
+}
+
+
+.col:nth-child(1){
+   
+    background-color:blue;
+    
+   
+}
+.col:nth-child(2){
+   
+    background-color:rgb(201, 159, 21);
+    
+   
+}
+.col:nth-child(3){
+   
+    background-color:rgb(199, 84, 39);
+    
+   
+}
+.col:nth-child(4){
+   
+    background-color:rgb(8, 59, 42);
+    
+   
+}.col:nth-child(5){
+   
+    background-color:rgb(228, 102, 196);
+    
+   
+}
+.col:nth-child(1){
+   
+    background-color:blue;
+    
+   
+}
+.col:nth-child(2){
+   
+    background-color:rgb(201, 159, 21);
+    
+   
+}
+.col:nth-child(3){
+   
+    background-color:rgb(199, 84, 39);
+    
+   
+}
+.col:nth-child(4){
+   
+    background-color:rgb(8, 59, 42);
+    
+   
+}.col:nth-child(5){
+   
+    background-color:rgb(228, 102, 196);
+    
+   
+}
+.row1{
+    width: 70%;
+    height: 300px;
+    position: absolute;
+    top:360px;
+    left: 15%;
+   
+    
+   
+}
+.col1{
+    width: calc(95%/7);
+    height: 250px;
+    float: left;
+    margin: 25px 3px;
+}
+.col1:nth-child(1){
+   
+    background-color:blue;
+    
+   
+}
+.col1:nth-child(2){
+   
+    background-color:rgb(201, 159, 21);
+    
+   
+}
+.col1:nth-child(3){
+   
+    background-color:rgb(199, 84, 39);
+    
+   
+}
+.col1:nth-child(4){
+   
+    background-color:rgb(8, 59, 42);
+    
+   
+}.col1:nth-child(5){
+   
+    background-color:rgb(228, 102, 196);
+    
+   
+}
+.col1:nth-child(6){
+   
+    background-color:blue;
+    
+   
+}
+.col1:nth-child(7){
+   
+    background-color:rgb(201, 159, 21);
+    
+   
+}
+
+ .row2{
+    width: 95%;
+    height: 300px;
+    position: absolute;
+    left: 5%;
+    top: 640px;
+    
+    
+   
+}
+.col2{
+    width: calc(70%/7);;
+    height: 250px;
+    float: left;
+    margin: 25px 3px;
+    
+
+}
+.col2:nth-child(1){
+   
+    background-color:blue;
+    
+   
+}
+.col2:nth-child(2){
+   
+    background-color:rgb(201, 159, 21);
+    
+   
+}
+.col2:nth-child(3){
+   
+    background-color:rgb(199, 84, 39);
+    
+   
+}
+.col2:nth-child(4){
+   
+    background-color:rgb(8, 59, 42);
+    
+   
+}.col2:nth-child(5){
+   
+    background-color:rgb(228, 102, 196);
+    
+   
+}
+.col2:nth-child(6){
+   
+    background-color:blue;
+    
+   
+}
+.col2:nth-child(7){
+   
+    background-color:rgb(201, 159, 21);
+    
+   
+}
+.col2:nth-child(8){
+   
+    background-color:rgb(199, 84, 39);
+    
+   
+}
+.col2:nth-child(9){
+   
+    background-color:rgb(8, 59, 42);
+    
+}

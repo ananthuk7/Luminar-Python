@@ -10,4 +10,5 @@ class Person:
         print(self.name,self.age,self.address)
 
 obj=Person("ananthu",23,"abc")
+obj.printVal()
 # obj.printVal()

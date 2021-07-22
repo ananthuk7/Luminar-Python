@@ -1,10 +1,10 @@
 x = "hello"
-y = "lbo"
-s = ""
+# y = "lbo"
+s = " "
 for i in x:
-    if i in y:
+    if i in "l":
         s = s + i
-if s == "":
+if s == " ":
     print("no common")
 else:
 

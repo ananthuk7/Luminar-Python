@@ -1,0 +1,96 @@
+.img {
+    position: absolute;
+    left: 46%;
+    margin-top: 30px;
+}
+
+.img img {
+    height: 45px;
+    width: 45px;
+}
+
+
+
+.sign {
+    font-size: 1.5rem;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 76px;
+    left: 41.8%;
+}
+
+.login {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 16%;
+    height: 210px;
+    padding: 20px;
+    position: absolute;
+    top: 150px;
+    left: 38.5%;
+    background-color: rgba(27, 31, 35, 0.06);
+    border: 1px solid #ebedf0;
+    border-radius: 4px;
+    font-size: .8rem;
+}
+
+.login input {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 97%;
+    border-radius: 8px;
+    border: 1px solid #ebedf0;
+}
+
+.login input[type="button"] {
+    background-color: #30a14e;
+    color: #fff;
+    width: 100%;
+    height: 38px;
+}
+
+.forgot {
+    color: rgb(0, 110, 255);
+    text-decoration: none;
+    float: right;
+}
+
+.but {
+    position: absolute;
+    top: 415px;
+    left: 38.5%;
+    border: 1px solid #ebedf0;
+    width: 18.5%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.but p {
+    font-size: .9rem;
+
+}
+
+.but p a {
+    color: rgb(0, 110, 255);
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.terms {
+    position: absolute;
+    top: 514px;
+    left: 36.7%;
+    width: 19%;
+    padding: 20px;
+    text-align: center;
+}
+
+.terms a {
+    text-decoration: none;
+    color: rgb(0, 110, 255);
+    font-size: .7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+
+}

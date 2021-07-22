@@ -1,24 +1,24 @@
-# class Company:
-#     def employee(self, name, eid, salary, cname):
-#         self.name = name
-#         self.eid = eid
-#         self.salary = salary
-#         self.cname = cname
-#
-#     def printEmployee(self):
-#         print("eid : ", self.eid, "name :", self.name, "salary: ", self.salary, "company name: ", self.cname)
-#
-#     def add(self, num1, num2):
-#         self.num1 = num1
-#         self.num2 = num2
-#
-#
-# em1 = Company()
-# em1.employee("ananthu", 100, 100000, "AOTI")
-# em1.printEmployee()
-# em1.employee("ananth", 10, 10000, "AOT")
-# em1.printEmployee()
-#
+class Company:
+    def employee(self, name, eid, salary, cname):
+        self.name = name
+        self.eid = eid
+        self.salary = salary
+        self.cname = cname
+
+    def printEmployee(self):
+        print("eid : ", self.eid, "name :", self.name, "salary: ", self.salary, "company name: ", self.cname)
+
+    def add(self, num1, num2):
+        self.num1 = num1
+        self.num2 = num2
+
+
+em1 = Company()
+em1.employee("ananthu", 100, 100000, "AOTI")
+em1.printEmployee()
+em1.employee("ananth", 10, 10000, "AOT")
+em1.printEmployee()
+
 # num=Company()
 # num.add(5,6)
 # print("sum is",num.num1+num.num2)

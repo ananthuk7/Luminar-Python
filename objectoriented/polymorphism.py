@@ -10,21 +10,21 @@
 
 #overoading
 
-class Operator:
-    def num(self, n1, n2):
-        self.n1 = n1
-        self.n2 = n2
-        print(self.n1, self.n2)
-
-
-class Display(Operator):
-    def num(self, n1):
-        self.n1 = n1
-        print(self.n1)
-
-
-d = Display()
-d.num(5)
+# class Operator:
+#     def num(self, n1, n2):
+#         self.n1 = n1
+#         self.n2 = n2
+#         print(self.n1, self.n2)
+#
+#
+# class Display(Operator):
+#     def num(self, n1):
+#         self.n1 = n1
+#         print(self.n1)
+#
+#
+# d = Display()
+# d.num(5,6)
 
 # over-riding
 class Person:

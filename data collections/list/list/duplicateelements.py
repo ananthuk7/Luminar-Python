@@ -11,6 +11,7 @@ for i in range(len(a) - 1):
     dup = a[i + 1]
 print(d)
 
+
 b = []
 for i in a:
     if i not in b:

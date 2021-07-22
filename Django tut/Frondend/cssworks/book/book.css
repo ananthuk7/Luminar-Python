@@ -1,0 +1,31 @@
+.row{
+    height: 500px;
+    width: 100%;
+    
+    
+}
+.col{
+    height: 650px;
+    width: 300px;
+    float: left;
+    margin: 35px;
+    border: 2px solid #333;
+
+}
+.col div{
+    padding: 3%;
+}
+.col img{
+    width: 100%;
+    height: 350px;
+}
+.col div h2{
+    text-align: center;
+    color:rgb(69, 69, 141);
+}
+.col div p{
+    text-align: justify;
+}
+.col div h4{
+    color:rgb(179, 83, 28);
+}

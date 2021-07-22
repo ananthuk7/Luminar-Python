@@ -1,0 +1,25 @@
+.row,.row{
+    width: 30%;
+    float: left;
+    border: 2px solid rgb(255, 64, 6);
+    height:500px
+}
+.row img{
+    width: 100%;
+}
+.pad{
+    margin-left: 10px;
+}
+/* %unit become relative  that is related to parent*/
+/* px absoute value not related to parent */
+.row h3{
+    color: #5e068a;
+}
+.row p{
+    font-size: 14px;
+    line-height: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mar{
+    padding: 3%;
+}
