@@ -1,5 +1,36 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background-color:rgb(206, 245, 206);
+    /* min-width: 100vw; */
+    margin: 0;
+    
+}
+header{
+    width: 100%;
+    padding: 20px;
+    background-color: blueviolet;  
+
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.container a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    margin-left:20px ;
+    text-transform: uppercase;
+    padding: 10px;
+
+
+}
+.container a:hover{
+    background-color: burlywood;
 }
 .heading{
     font-size: 2rem;
@@ -9,15 +40,16 @@ body{
     margin-top: 50px;
 }
 .row{
-    height: 500px;
+    height: 700px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 50px;
+    
 }
 .mt{
-    margin-top: 200px; 
+    /* margin-top: 200px;  */
     margin-bottom: 150px; 
 }
 .col{
