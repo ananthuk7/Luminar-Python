@@ -7,7 +7,9 @@ class Student:
 
 f = open("student", "r")
 for i in f:
-    i.rstrip('\n').split(" ")
-    name=i[0]
-    age=i[1]
+    var=i.rstrip('\n').split(",")
+    name=var[0]
+    age=var[1]
+    ob=Student(name,age)
+
 
