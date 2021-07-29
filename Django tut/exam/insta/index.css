@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    height: 600px;
+    width: 800px;
+    /* background-color: beige; */
+    display: flex;
+
+}
+
+.left,
+.right {
+    width: 50%
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+}
+
+.img img {
+    height: 500px
+}
+
+.login {
+    width: 90%;
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 2%;
+    position: absolute;
+    top: 20px;
+    height: 300px;
+    height: 350px;
+
+}
+
+.login input {
+    width: 90%;
+    margin-bottom: 5px;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid #d3d3d3
+}
+
+.login input[type="button"] {
+    width: 92%;
+    margin-top: 10px;
+    background: #a4e6f5;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+hr {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.login a {
+    color: #15246b;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.login .fon {
+    font-size: .8rem;
+}
+.giveup{
+    position: absolute;
+    top:400px;
+    border:1px solid #d3d3d3;
+    width:90%;
+    height: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+.giveup a {
+    text-decoration: none;
+    color: #000;
+}
+.giveup span{
+    color:#1daade;
+}
+.get{
+    position: absolute;
+    top:450px;
+}
